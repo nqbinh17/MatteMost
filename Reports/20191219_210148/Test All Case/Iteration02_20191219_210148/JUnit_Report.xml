@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test All Case" time="133.195" tests="30" failures="1" errors="0">
+   <testsuite name="Test All Case" tests="30" failures="1" errors="0" time="133.195" timestamp="2019-12-19 21:01:49" hostname="nqbin - DESKTOP-M2KUILK" id="Test Suites/Test All Case">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191219_210148\\Test All Case\\20191219_210148"/>
+         <property name="logFiles" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191219_210148\\Test All Case\\20191219_210148\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191219_210148\\Test All Case\\20191219_210148\\1576764239849.png"/>
+         <property name="hostName" value="nqbin - DESKTOP-M2KUILK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="2720092f1bbb28feeccabbbf270e82d4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Off-Topic aba123/BinhChill login" time="14.81" classname="Test Cases/Off-Topic aba123/BinhChill login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:01:49 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/BinhChill login: Test Cases/Off-Topic aba123/BinhChill login
+
+2019-12-19 21:01:50 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-19 21:01:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 21:01:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-19 21:01:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-19 21:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "binhquoc999@gmail.com"): Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-19 21:02:03 - [MESSAGE][PASSED] - Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-19 21:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-19 21:02:04 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-19 21:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-19 21:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="4.26" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:04 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-19 21:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:08 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Mute-On-Off" time="2.278" classname="Test Cases/Town Square binhchill/BinhChill Mute-On-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:08 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Mute-On-Off: Test Cases/Town Square binhchill/BinhChill Mute-On-Off
+
+2019-12-19 21:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/button_Mute Channel")): Object: 'Object Repository/Town Square Notification/button_Mute Channel' is clicked on
+
+2019-12-19 21:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/button_Mute Channel' is clicked on
+
+2019-12-19 21:02:10 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/i_Town Square_icon fa fa-bell-slash-o")): Object: 'Object Repository/Town Square Notification/i_Town Square_icon fa fa-bell-slash-o' is clicked on
+
+2019-12-19 21:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/i_Town Square_icon fa fa-bell-slash-o' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/NickName" time="5.251" classname="Test Cases/Account Settings/General Setting/NickName" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:11 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/NickName: Test Cases/Account Settings/General Setting/NickName
+
+2019-12-19 21:02:11 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:12 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit NickName")): Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-19 21:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-19 21:02:14 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Nickname_nickname"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-19 21:02:14 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-19 21:02:14 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save NickName")): Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-19 21:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-19 21:02:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:15 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:15 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:16 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="5.283" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:16 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-19 21:02:16 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:17 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:18 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-19 21:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-19 21:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-19 21:02:19 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-19 21:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-19 21:02:20 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-19 21:02:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-19 21:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-19 21:02:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:20 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:21 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Search username" time="6.342" classname="Test Cases/Town Square binhchill/BinhChill Search username" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:21 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Search username: Test Cases/Town Square binhchill/BinhChill Search username
+
+2019-12-19 21:02:21 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/button_View Members")): Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-19 21:02:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-19 21:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Town Square Notification/input_Members_searchUsersInput"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-19 21:02:24 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-19 21:02:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-19 21:02:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-19 21:02:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:28 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="1.201" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:28 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-19 21:02:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:28 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Off-Topic aba123/Aba123 login" time="14.318" classname="Test Cases/Off-Topic aba123/Aba123 login" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:29 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/Aba123 login: Test Cases/Off-Topic aba123/Aba123 login
+
+2019-12-19 21:02:29 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-19 21:02:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-19 21:02:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-19 21:02:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-19 21:02:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "aba123"): Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-19 21:02:42 - [MESSAGE][PASSED] - Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-19 21:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-19 21:02:43 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-19 21:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-19 21:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="6.132" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:43 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-19 21:02:43 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:47 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:48 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-19 21:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-19 21:02:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:49 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:49 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="1.237" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:49 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-19 21:02:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:50 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-19 21:02:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="4.418" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:51 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-19 21:02:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:52 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-19 21:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-19 21:02:53 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-19 21:02:54 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-19 21:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-19 21:02:54 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-19 21:02:54 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-19 21:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-19 21:02:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:54 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:54 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/NickName" time="3.656" classname="Test Cases/Account Settings/General Setting/NickName" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:55 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/NickName: Test Cases/Account Settings/General Setting/NickName
+
+2019-12-19 21:02:55 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:55 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:02:56 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit NickName")): Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-19 21:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-19 21:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Nickname_nickname"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-19 21:02:58 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-19 21:02:58 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save NickName")): Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-19 21:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-19 21:02:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:02:58 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:02:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:02:59 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Position" time="3.522" classname="Test Cases/Account Settings/General Setting/Position" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:02:59 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Position: Test Cases/Account Settings/General Setting/Position
+
+2019-12-19 21:02:59 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:02:59 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:00 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Position")): Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-19 21:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-19 21:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Position_position"), ""): Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-19 21:03:02 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-19 21:03:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:02 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:02 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Profile" time="3.123" classname="Test Cases/Account Settings/General Setting/Profile" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:02 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Profile: Test Cases/Account Settings/General Setting/Profile
+
+2019-12-19 21:03:02 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:03 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:04 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Profile")): Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-19 21:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-19 21:03:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:05 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:05 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:05 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/User Name" time="3.832" classname="Test Cases/Account Settings/General Setting/User Name" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:05 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/User Name: Test Cases/Account Settings/General Setting/User Name
+
+2019-12-19 21:03:05 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:06 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:07 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit UserName")): Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-19 21:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-19 21:03:08 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save UserName")): Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-19 21:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-19 21:03:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:09 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:09 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display" time="3.203" classname="Test Cases/Account Settings/Display Settings/Display" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:09 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display: Test Cases/Account Settings/Display Settings/Display
+
+2019-12-19 21:03:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:10 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:11 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:12 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:12 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:12 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Channel" time="3.908" classname="Test Cases/Account Settings/Display Settings/Display Channel" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:12 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Channel: Test Cases/Account Settings/Display Settings/Display Channel
+
+2019-12-19 21:03:12 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:14 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Channel Display")): Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-19 21:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-19 21:03:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:15 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:15 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:16 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Clock" time="4.355" classname="Test Cases/Account Settings/Display Settings/Display Clock" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:16 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Clock: Test Cases/Account Settings/Display Settings/Display Clock
+
+2019-12-19 21:03:16 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:17 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Clock")): Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-19 21:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-19 21:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Clock Display_clockFormat")): Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-19 21:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-19 21:03:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:20 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:20 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:21 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Default" time="4.177" classname="Test Cases/Account Settings/Display Settings/Display Default" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:21 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Default: Test Cases/Account Settings/Display Settings/Display Default
+
+2019-12-19 21:03:21 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:21 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:23 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Default appearance")): Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-19 21:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-19 21:03:24 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Expanded_collapseFormat")): Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-19 21:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-19 21:03:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:24 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:24 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:25 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Language" time="4.257" classname="Test Cases/Account Settings/Display Settings/Display Language" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:25 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Language: Test Cases/Account Settings/Display Settings/Display Language
+
+2019-12-19 21:03:25 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:26 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:27 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Language")): Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-19 21:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-19 21:03:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:28 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:29 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Message" time="4.529" classname="Test Cases/Account Settings/Display Settings/Display Message" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:29 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Message: Test Cases/Account Settings/Display Settings/Display Message
+
+2019-12-19 21:03:29 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:31 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Message Display")): Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-19 21:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-19 21:03:32 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/label_Compact Fit as many messages on the screen as we can")): Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-19 21:03:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-19 21:03:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:33 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:33 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:33 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:33 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:34 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Teammate" time="4.377" classname="Test Cases/Account Settings/Display Settings/Display Teammate" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:34 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Teammate: Test Cases/Account Settings/Display Settings/Display Teammate
+
+2019-12-19 21:03:34 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:34 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Teammate")): Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-19 21:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-19 21:03:37 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Teammate Name Display_name_formatFormat")): Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-19 21:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-19 21:03:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:37 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:37 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:38 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:38 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Theme" time="4.017" classname="Test Cases/Account Settings/Display Settings/Display Theme" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:38 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Theme: Test Cases/Account Settings/Display Settings/Display Theme
+
+2019-12-19 21:03:38 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:39 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-19 21:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Theme")): Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-19 21:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-19 21:03:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:41 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:42 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:42 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Notifications Settings/Notification" time="4.542" classname="Test Cases/Account Settings/Notifications Settings/Notification" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:42 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Notifications Settings/Notification: Test Cases/Account Settings/Notifications Settings/Notification
+
+2019-12-19 21:03:42 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:43 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:44 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Notifications")): Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-19 21:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-19 21:03:45 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Notification")): Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-19 21:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-19 21:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText"), "chobinh"): Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-19 21:03:46 - [MESSAGE][PASSED] - Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-19 21:03:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:46 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:46 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:46 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Advanced Settings/Advanced" time="3.182" classname="Test Cases/Account Settings/Advanced Settings/Advanced" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:46 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Advanced Settings/Advanced: Test Cases/Account Settings/Advanced Settings/Advanced
+
+2019-12-19 21:03:47 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:47 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:48 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Advanced")): Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-19 21:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-19 21:03:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:49 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:50 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Sidebar Settings/Sidebar" time="3.188" classname="Test Cases/Account Settings/Sidebar Settings/Sidebar" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:50 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Sidebar Settings/Sidebar: Test Cases/Account Settings/Sidebar Settings/Sidebar
+
+2019-12-19 21:03:50 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Sidebar")): Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-19 21:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-19 21:03:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:52 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:53 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Security Settings/Security" time="3.201" classname="Test Cases/Account Settings/Security Settings/Security" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:53 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Security Settings/Security: Test Cases/Account Settings/Security Settings/Security
+
+2019-12-19 21:03:53 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-19 21:03:54 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-19 21:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Security")): Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-19 21:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-19 21:03:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-19 21:03:56 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-19 21:03:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-19 21:03:56 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Join Channels" time="2.706" classname="Test Cases/Account Settings/Join New Channels/Join Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:03:56 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Join Channels: Test Cases/Account Settings/Join New Channels/Join Channels
+
+2019-12-19 21:03:56 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_More")): Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-19 21:03:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-19 21:03:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page Join Channels/input_Create New Channel_searchChannelsTextbox"), "Boyris "): Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-19 21:03:58 - [MESSAGE][PASSED] - Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-19 21:03:58 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Join Channels")): Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on
+
+2019-12-19 21:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Chatting" time="0.962" classname="Test Cases/Account Settings/Join New Channels/Chatting" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Account Settings/Join New Channels/Chatting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-19 21:03:59 - [TEST_CASE][FAILED] - Test Cases/Account Settings/Join New Channels/Chatting: Test Cases/Account Settings/Join New Channels/Chatting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-19 21:03:59 - [TEST_STEP][FAILED] - setText(findTestObject("Page Join Channels/textarea_Write to Boyris New Age_post_textbox"), "Hello Im New"): Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1576761808294.run(Script1576761808294.groovy:19)
+	... 13 more
+)
+
+2019-12-19 21:04:00 - [MESSAGE][FAILED] - Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Script1576761808294.run(Script1576761808294.groovy:19)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191219_210148\\Test All Case\\20191219_210148\\1576764239849.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-19 21:03:59 - [TEST_CASE][FAILED] - Test Cases/Account Settings/Join New Channels/Chatting: Test Cases/Account Settings/Join New Channels/Chatting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Leave Channels" time="2.046" classname="Test Cases/Account Settings/Join New Channels/Leave Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-19 21:04:00 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Leave Channels: Test Cases/Account Settings/Join New Channels/Leave Channels
+
+2019-12-19 21:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon")): Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-19 21:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/button_Leave Channel")): Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on
+
+2019-12-19 21:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-19 21:01:49 - [TEST_SUITE][FAILED] - Test All Case: Test Cases/Account Settings/Join New Channels/Chatting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-19 21:01:49 - [TEST_SUITE][FAILED] - Test All Case: Test Cases/Account Settings/Join New Channels/Chatting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Hello Im New' of object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$0.call(Unknown Source)
+	at Chatting.run(Chatting:19)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576764108262.run(TempTestSuite1576764108262.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.79)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-M2KUILK', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.79, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\nqbin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2720092f1bbb28feeccabbbf270e82d4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:429)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:59)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
