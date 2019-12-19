@@ -17,16 +17,28 @@
       <testCaseId>Test Cases/Off-Topic aba123/BinhChill login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b492a2d5-7906-45b5-8e47-7ee89b64437a</guid>
+      <guid>036e3e22-cc24-4f0b-a883-a9f008488b77</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Town Square binhchill/BinhChill change Purpose</testCaseId>
+      <testCaseId>Test Cases/Town Square binhchill/BinhChill Write-Off</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5c69486f-e0a8-4fd5-82d2-8fa8cbf3690f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Town Square binhchill/BinhChill Mute-On-Off</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8798de34-c534-47e9-bc9b-1bc6e4e4cee7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Account Settings/General Setting/NickName</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>10ebf88f-8fa9-4c59-832f-93e32ae28e76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Account Settings/General Setting/Full Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3420b58e-7abf-422e-9115-0a61330a9e9e</guid>
@@ -41,34 +53,22 @@
       <testCaseId>Test Cases/Town Square binhchill/BinhChill Write-Off</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>216c42aa-dfb5-4499-9ba7-8eb5d022c219</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Off-Topic aba123/Aba123 change header - write off</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f872fe11-7c2a-409f-ae2f-865f34b94aec</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Off-Topic aba123/BinhChill Left room</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f3b451ca-03f9-4e5f-bd01-08e8cd06448d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Off-Topic aba123/Aba123 login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6657bf37-d29c-468a-a953-2acf7558ec7a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Off-Topic aba123/Aba123 add BinhChill back</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>7e4dfc93-d5ef-40c3-b94f-809e83930122</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Settings/General Setting/Email</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f94fa1f-843d-4e53-b4a3-0c9bfdd9d986</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Town Square binhchill/BinhChill Write-Off</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18e03483-0fe9-4c82-a281-d9f5c67380b7</guid>
@@ -189,5 +189,65 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Account Settings/Join New Channels/Leave Channels</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08892750-1a18-459c-8754-fbfad5173b00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Enter Boyris</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9805456b-f369-4a8a-8366-ff383a75c8ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Add BinhChill</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34c7a7a7-6d62-45e4-b8df-b8b7da07701a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Kick BinhChill</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>53392680-aad8-483a-97aa-f5552e25638f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Allow Any</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3bb71a0-4718-4dc0-83b0-e68f2ac3aee2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Allow Only</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91963583-8981-4083-a44b-1473dbc581eb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Description</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8dc029e9-dadc-45a1-a8da-481dfa2d8b61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Icon</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1be50b46-4d27-491e-a331-c454c5820e98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Invite Code</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>47f4374e-54ae-49f2-8cea-18cac99d5462</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Name</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09a70d19-7655-430b-9d0f-856560bec610</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Boyris Team/Team Settings</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

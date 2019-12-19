@@ -16,15 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General Setting/span menu'))
+WebUI.click(findTestObject('Page Boyris Mattermost/span_Main menu'))
 
-WebUI.click(findTestObject('General Setting/button_Account Settings'))
+WebUI.click(findTestObject('Page Boyris Mattermost/button_Team Settings'))
 
-WebUI.click(findTestObject('Account Settings/button_Display'))
+WebUI.click(findTestObject('Page Boyris Mattermost/span_Edit Description'))
 
-WebUI.click(findTestObject('Account Settings/span_Edit Theme'))
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Page Boyris Mattermost/input_Team Description_teamDescription'), 'We\'re From The Hood')
 
 WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
 

@@ -14,17 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General Setting/span menu'))
+WebUI.click(findTestObject('Page Boyris Mattermost/span_Main menu'))
 
-WebUI.click(findTestObject('General Setting/button_Account Settings'))
+WebUI.click(findTestObject('Page Boyris Mattermost/button_Manage Members'))
 
-WebUI.click(findTestObject('Account Settings/button_Display'))
+WebUI.click(findTestObject('Page Boyris Mattermost/span_System Admin'))
 
-WebUI.click(findTestObject('Account Settings/span_Edit Theme'))
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
-
-WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ESCAPE))
+WebUI.click(findTestObject('Page Boyris Mattermost/button_Remove From Team'))
 
