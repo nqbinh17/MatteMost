@@ -1,0 +1,1775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test All Cases" time="384.694" tests="50" failures="2" errors="0">
+   <testsuite name="Test All Cases" tests="50" failures="2" errors="0" time="384.694" timestamp="2019-12-20 13:29:22" hostname="nqbin - DESKTOP-M2KUILK" id="Test Suites/Test All Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909"/>
+         <property name="logFiles" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909\\1576823624751.png, C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909\\1576823678678.png"/>
+         <property name="hostName" value="nqbin - DESKTOP-M2KUILK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="99edda79281caa1fce50a04d828809b4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Off-Topic aba123/BinhChill login" time="23.874" classname="Test Cases/Off-Topic aba123/BinhChill login" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:29:22 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/BinhChill login: Test Cases/Off-Topic aba123/BinhChill login
+
+2019-12-20 13:29:23 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:29:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-20 13:29:24 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-20 13:29:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:29:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "binhquoc999@gmail.com"): Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:29:45 - [MESSAGE][PASSED] - Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:29:45 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 13:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display" time="8.41" classname="Test Cases/Account Settings/Display Settings/Display" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:29:46 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display: Test Cases/Account Settings/Display Settings/Display
+
+2019-12-20 13:29:47 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:29:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:29:52 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:29:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:29:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:29:54 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:29:54 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:29:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Channel" time="4.606" classname="Test Cases/Account Settings/Display Settings/Display Channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:29:55 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Channel: Test Cases/Account Settings/Display Settings/Display Channel
+
+2019-12-20 13:29:55 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:29:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:29:56 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:29:58 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Channel Display")): Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:29:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:29:58 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:29:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:29:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:29:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:29:59 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:29:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:29:59 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Clock" time="5.278" classname="Test Cases/Account Settings/Display Settings/Display Clock" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:29:59 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Clock: Test Cases/Account Settings/Display Settings/Display Clock
+
+2019-12-20 13:30:00 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:00 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:02 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Clock")): Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Clock Display_clockFormat")): Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:30:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:04 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:04 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:04 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:05 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Theme" time="4.779" classname="Test Cases/Account Settings/Display Settings/Display Theme" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:05 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Theme: Test Cases/Account Settings/Display Settings/Display Theme
+
+2019-12-20 13:30:05 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:07 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:08 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Theme")): Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:30:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:08 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:09 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:09 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Default" time="5.439" classname="Test Cases/Account Settings/Display Settings/Display Default" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:09 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Default: Test Cases/Account Settings/Display Settings/Display Default
+
+2019-12-20 13:30:10 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:11 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:12 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:13 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Default appearance")): Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:30:13 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Expanded_collapseFormat")): Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:30:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:14 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:14 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:14 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:14 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:15 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.814" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:15 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:30:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:17 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Message" time="5.874" classname="Test Cases/Account Settings/Display Settings/Display Message" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:18 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Message: Test Cases/Account Settings/Display Settings/Display Message
+
+2019-12-20 13:30:18 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:19 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:20 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:21 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Message Display")): Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:30:22 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/label_Compact Fit as many messages on the screen as we can")): Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:30:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:30:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:22 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:23 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:23 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Teammate" time="5.072" classname="Test Cases/Account Settings/Display Settings/Display Teammate" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:24 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Teammate: Test Cases/Account Settings/Display Settings/Display Teammate
+
+2019-12-20 13:30:24 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:25 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:26 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Teammate")): Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:30:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:30:27 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Teammate Name Display_name_formatFormat")): Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:30:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:28 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:28 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:29 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="3.572" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:29 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:30:29 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:31 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:30:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:30:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:32 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:32 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:32 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Language" time="5.055" classname="Test Cases/Account Settings/Display Settings/Display Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:32 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Language: Test Cases/Account Settings/Display Settings/Display Language
+
+2019-12-20 13:30:33 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:33 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:34 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:30:35 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Language")): Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:30:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:36 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:37 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:37 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:37 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="5.935" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:37 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-20 13:30:38 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:30:38 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:30:39 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:30:40 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:30:41 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:30:41 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:30:42 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:30:42 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:30:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:43 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:43 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Search username" time="6.315" classname="Test Cases/Town Square binhchill/BinhChill Search username" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:43 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Search username: Test Cases/Town Square binhchill/BinhChill Search username
+
+2019-12-20 13:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/button_View Members")): Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-20 13:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-20 13:30:45 - [TEST_STEP][PASSED] - setText(findTestObject("Town Square Notification/input_Members_searchUsersInput"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-20 13:30:46 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-20 13:30:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-20 13:30:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-20 13:30:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:30:49 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:30:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:30:50 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.419" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:50 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:51 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:30:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Off-Topic aba123/Aba123 login" time="17.168" classname="Test Cases/Off-Topic aba123/Aba123 login" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:30:52 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/Aba123 login: Test Cases/Off-Topic aba123/Aba123 login
+
+2019-12-20 13:30:52 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:30:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-20 13:30:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-20 13:31:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:31:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "aba123"): Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:31:08 - [MESSAGE][PASSED] - Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:31:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:31:09 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:31:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 13:31:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="7.657" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:09 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:31:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:14 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:15 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:31:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:17 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.68" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:17 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:31:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:19 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Advanced Settings/Advanced" time="3.546" classname="Test Cases/Account Settings/Advanced Settings/Advanced" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:20 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Advanced Settings/Advanced: Test Cases/Account Settings/Advanced Settings/Advanced
+
+2019-12-20 13:31:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:21 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Advanced")): Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-20 13:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-20 13:31:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:22 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:23 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Channel" time="4.665" classname="Test Cases/Account Settings/Display Settings/Display Channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:23 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Channel: Test Cases/Account Settings/Display Settings/Display Channel
+
+2019-12-20 13:31:23 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:24 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Channel Display")): Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:31:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:28 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.646" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:28 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:31:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:30 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:31:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Clock" time="5.132" classname="Test Cases/Account Settings/Display Settings/Display Clock" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:30 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Clock: Test Cases/Account Settings/Display Settings/Display Clock
+
+2019-12-20 13:31:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:31 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Clock")): Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:31:34 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Clock Display_clockFormat")): Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:31:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:35 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:35 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:35 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:36 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Default" time="4.94" classname="Test Cases/Account Settings/Display Settings/Display Default" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:36 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Default: Test Cases/Account Settings/Display Settings/Display Default
+
+2019-12-20 13:31:36 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:37 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Default appearance")): Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Expanded_collapseFormat")): Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:31:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:40 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:40 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:40 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:40 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:41 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Language" time="4.665" classname="Test Cases/Account Settings/Display Settings/Display Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:41 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Language: Test Cases/Account Settings/Display Settings/Display Language
+
+2019-12-20 13:31:41 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:41 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Language")): Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:31:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:44 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:45 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:45 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:45 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Message" time="5.137" classname="Test Cases/Account Settings/Display Settings/Display Message" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:45 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Message: Test Cases/Account Settings/Display Settings/Display Message
+
+2019-12-20 13:31:45 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:46 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:46 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:47 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Message Display")): Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/label_Compact Fit as many messages on the screen as we can")): Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:31:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:49 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:50 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:50 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Teammate" time="4.957" classname="Test Cases/Account Settings/Display Settings/Display Teammate" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:50 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Teammate: Test Cases/Account Settings/Display Settings/Display Teammate
+
+2019-12-20 13:31:50 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:52 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Teammate")): Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Teammate Name Display_name_formatFormat")): Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:31:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:55 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:55 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Theme" time="4.509" classname="Test Cases/Account Settings/Display Settings/Display Theme" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:31:55 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Theme: Test Cases/Account Settings/Display Settings/Display Theme
+
+2019-12-20 13:31:55 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:31:56 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Theme")): Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:31:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:59 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:31:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:31:59 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:31:59 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:00 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display" time="3.499" classname="Test Cases/Account Settings/Display Settings/Display" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:00 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display: Test Cases/Account Settings/Display Settings/Display
+
+2019-12-20 13:32:00 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:01 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:01 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:32:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:03 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:03 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="3.517" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:03 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:32:03 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:04 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:04 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:05 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:32:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:06 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:06 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:07 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="5.689" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:07 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-20 13:32:07 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:08 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:32:10 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:32:11 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:32:11 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:32:11 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:32:11 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:32:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:12 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:12 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:13 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/NickName" time="5.104" classname="Test Cases/Account Settings/General Setting/NickName" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:13 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/NickName: Test Cases/Account Settings/General Setting/NickName
+
+2019-12-20 13:32:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:15 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit NickName")): Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-20 13:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-20 13:32:15 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Nickname_nickname"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-20 13:32:16 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-20 13:32:16 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save NickName")): Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-20 13:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-20 13:32:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:17 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:18 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Position" time="4.036" classname="Test Cases/Account Settings/General Setting/Position" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:18 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Position: Test Cases/Account Settings/General Setting/Position
+
+2019-12-20 13:32:18 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:19 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Position")): Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-20 13:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-20 13:32:21 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Position_position"), ""): Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-20 13:32:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-20 13:32:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:21 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:21 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:22 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Profile" time="3.675" classname="Test Cases/Account Settings/General Setting/Profile" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:22 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Profile: Test Cases/Account Settings/General Setting/Profile
+
+2019-12-20 13:32:22 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:23 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:24 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Profile")): Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-20 13:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-20 13:32:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:25 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:25 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:25 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Sample" time="2.846" classname="Test Cases/Account Settings/General Setting/Sample" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:25 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Sample: Test Cases/Account Settings/General Setting/Sample
+
+2019-12-20 13:32:26 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:26 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:28 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/User Name" time="4.176" classname="Test Cases/Account Settings/General Setting/User Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:28 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/User Name: Test Cases/Account Settings/General Setting/User Name
+
+2019-12-20 13:32:29 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:29 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit UserName")): Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-20 13:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-20 13:32:31 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save UserName")): Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-20 13:32:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-20 13:32:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:32 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:32 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:32 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Chatting" time="2.063" classname="Test Cases/Account Settings/Join New Channels/Chatting" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:33 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Chatting: Test Cases/Account Settings/Join New Channels/Chatting
+
+2019-12-20 13:32:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page Join Channels/textarea_Write to Boyris New Age_post_textbox"), "Hello Im New"): Text 'Hello Im New' is set on object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+
+2019-12-20 13:32:34 - [MESSAGE][PASSED] - Text 'Hello Im New' is set on object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+
+2019-12-20 13:32:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:34 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Join Channels" time="3.51" classname="Test Cases/Account Settings/Join New Channels/Join Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:35 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Join Channels: Test Cases/Account Settings/Join New Channels/Join Channels
+
+2019-12-20 13:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_More")): Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-20 13:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-20 13:32:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page Join Channels/input_Create New Channel_searchChannelsTextbox"), "Boyris "): Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-20 13:32:37 - [MESSAGE][PASSED] - Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-20 13:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Join Channels")): Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on
+
+2019-12-20 13:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Leave Channels" time="3.293" classname="Test Cases/Account Settings/Join New Channels/Leave Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:38 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Leave Channels: Test Cases/Account Settings/Join New Channels/Leave Channels
+
+2019-12-20 13:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon")): Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/button_Leave Channel")): Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on
+
+2019-12-20 13:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Notifications Settings/Notification" time="5.85" classname="Test Cases/Account Settings/Notifications Settings/Notification" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:41 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Notifications Settings/Notification: Test Cases/Account Settings/Notifications Settings/Notification
+
+2019-12-20 13:32:42 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:43 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Notifications")): Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-20 13:32:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-20 13:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Notification")): Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-20 13:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-20 13:32:46 - [TEST_STEP][PASSED] - setText(findTestObject("Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText"), "chobinh"): Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-20 13:32:46 - [MESSAGE][PASSED] - Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-20 13:32:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:46 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:46 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:47 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:47 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Security Settings/Security" time="3.521" classname="Test Cases/Account Settings/Security Settings/Security" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:47 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Security Settings/Security: Test Cases/Account Settings/Security Settings/Security
+
+2019-12-20 13:32:48 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:48 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:49 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Security")): Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-20 13:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-20 13:32:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:50 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:51 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Sidebar Settings/Sidebar" time="3.477" classname="Test Cases/Account Settings/Sidebar Settings/Sidebar" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:32:51 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Sidebar Settings/Sidebar: Test Cases/Account Settings/Sidebar Settings/Sidebar
+
+2019-12-20 13:32:51 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:32:52 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:32:53 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Sidebar")): Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-20 13:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-20 13:32:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:32:54 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:32:54 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:32:54 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Add BinhChill" time="50.705" classname="Test Cases/Boyris Team/Add BinhChill" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Boyris Team/Add BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-20 13:32:54 - [TEST_CASE][FAILED] - Test Cases/Boyris Team/Add BinhChill: Test Cases/Boyris Team/Add BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-20 13:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Add Members to Team")): Object: 'Object Repository/Page Boyris Mattermost/button_Add Members to Team' is clicked on
+
+2019-12-20 13:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Add Members to Team' is clicked on
+
+2019-12-20 13:32:56 - [TEST_STEP][FAILED] - click(findTestObject("Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576766030003.run(Script1576766030003.groovy:22)
+	... 13 more
+)
+
+2019-12-20 13:33:44 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-20 13:33:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1576766030003.run(Script1576766030003.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909\\1576823624751.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-20 13:32:54 - [TEST_CASE][FAILED] - Test Cases/Boyris Team/Add BinhChill: Test Cases/Boyris Team/Add BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Enter Boyris" time="3.975" classname="Test Cases/Boyris Team/Enter Boyris" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:33:45 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Enter Boyris: Test Cases/Boyris Team/Enter Boyris
+
+2019-12-20 13:33:46 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/div_Boyris")): Object: 'Object Repository/Page Boyris Mattermost/div_Boyris' is clicked on
+
+2019-12-20 13:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/div_Boyris' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Kick BinhChill" time="49.67" classname="Test Cases/Boyris Team/Kick BinhChill" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Boyris Team/Kick BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Kick BinhChill.run(Kick BinhChill:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/button_Manage Members' located by 'By.xpath: //li[@id='manageMembers']/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-20 13:33:49 - [TEST_CASE][FAILED] - Test Cases/Boyris Team/Kick BinhChill: Test Cases/Boyris Team/Kick BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Kick BinhChill.run(Kick BinhChill:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/button_Manage Members' located by 'By.xpath: //li[@id='manageMembers']/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-20 13:33:49 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:33:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:33:50 - [TEST_STEP][FAILED] - click(findTestObject("Page Boyris Mattermost/button_Manage Members")): Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Kick BinhChill.run(Kick BinhChill:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/button_Manage Members' located by 'By.xpath: //li[@id='manageMembers']/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1576766151430.run(Script1576766151430.groovy:20)
+	... 13 more
+)
+
+2019-12-20 13:34:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[@id='manageMembers']/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-20 13:34:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Kick BinhChill.run(Kick BinhChill:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/button_Manage Members' located by 'By.xpath: //li[@id='manageMembers']/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1576766151430.run(Script1576766151430.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_132909\\Test All Cases\\20191220_132909\\1576823678678.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-20 13:33:49 - [TEST_CASE][FAILED] - Test Cases/Boyris Team/Kick BinhChill: Test Cases/Boyris Team/Kick BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/button_Manage Members'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Kick BinhChill.run(Kick BinhChill:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/button_Manage Members' located by 'By.xpath: //li[@id='manageMembers']/button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Allow Any" time="44.729" classname="Test Cases/Boyris Team/Team Allow Any" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:34:39 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Allow Any: Test Cases/Boyris Team/Team Allow Any
+
+2019-12-20 13:34:39 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:22 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Allow Any")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow Any' is clicked on
+
+2019-12-20 13:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow Any' is clicked on
+
+2019-12-20 13:35:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:23 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:23 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Allow Only" time="3.634" classname="Test Cases/Boyris Team/Team Allow Only" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:24 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Allow Only: Test Cases/Boyris Team/Team Allow Only
+
+2019-12-20 13:35:24 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Allow only")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow only' is clicked on
+
+2019-12-20 13:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow only' is clicked on
+
+2019-12-20 13:35:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:27 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Description" time="4.129" classname="Test Cases/Boyris Team/Team Description" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:27 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Description: Test Cases/Boyris Team/Team Description
+
+2019-12-20 13:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:28 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Description")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Description' is clicked on
+
+2019-12-20 13:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Description' is clicked on
+
+2019-12-20 13:35:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page Boyris Mattermost/input_Team Description_teamDescription"), "We're From The Hood"): Text 'We're From The Hood' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 13:35:31 - [MESSAGE][PASSED] - Text 'We're From The Hood' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 13:35:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:31 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:31 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:31 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Icon" time="3.607" classname="Test Cases/Boyris Team/Team Icon" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:31 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Icon: Test Cases/Boyris Team/Team Icon
+
+2019-12-20 13:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:33 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Team Icon")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Icon' is clicked on
+
+2019-12-20 13:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Icon' is clicked on
+
+2019-12-20 13:35:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:34 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:35 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Invite Code" time="3.195" classname="Test Cases/Boyris Team/Team Invite Code" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:35 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Invite Code: Test Cases/Boyris Team/Team Invite Code
+
+2019-12-20 13:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Invite Code")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Invite Code' is clicked on
+
+2019-12-20 13:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Invite Code' is clicked on
+
+2019-12-20 13:35:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:38 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:38 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Name" time="4.019" classname="Test Cases/Boyris Team/Team Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:38 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Name: Test Cases/Boyris Team/Team Name
+
+2019-12-20 13:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Team Name")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Name' is clicked on
+
+2019-12-20 13:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Name' is clicked on
+
+2019-12-20 13:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page Boyris Mattermost/input_Team Name_teamName"), "Boyris"): Text 'Boyris' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Name_teamName'
+
+2019-12-20 13:35:42 - [MESSAGE][PASSED] - Text 'Boyris' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Name_teamName'
+
+2019-12-20 13:35:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:42 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:42 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Settings" time="2.642" classname="Test Cases/Boyris Team/Team Settings" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:35:42 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Settings: Test Cases/Boyris Team/Team Settings
+
+2019-12-20 13:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 13:35:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:35:44 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:35:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:35:45 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 13:29:22 - [TEST_SUITE][FAILED] - Test All Cases: Test Cases/Boyris Team/Add BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-20 13:29:22 - [TEST_SUITE][FAILED] - Test All Cases: Test Cases/Boyris Team/Add BinhChill FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:102)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Add BinhChill.run(Add BinhChill:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576823349246.run(TempTestSuite1576823349246.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' located by 'By.xpath: //div[@id='addUsersToTeamModal']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1154)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

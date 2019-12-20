@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test All Cases" time="232.407" tests="50" failures="0" errors="0">
+   <testsuite name="Test All Cases" tests="50" failures="0" errors="0" time="232.407" timestamp="2019-12-20 13:56:32" hostname="nqbin - DESKTOP-M2KUILK" id="Test Suites/Test All Cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_135627\\Test All Cases\\20191220_135627"/>
+         <property name="logFiles" value="C:\\Users\\nqbin\\git\\MatteMost\\Reports\\20191220_135627\\Test All Cases\\20191220_135627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nqbin - DESKTOP-M2KUILK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="387eb232240164c8fc7076e5311fae5a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Off-Topic aba123/BinhChill login" time="19.466" classname="Test Cases/Off-Topic aba123/BinhChill login" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:56:32 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/BinhChill login: Test Cases/Off-Topic aba123/BinhChill login
+
+2019-12-20 13:56:33 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:56:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-20 13:56:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-20 13:56:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:56:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "binhquoc999@gmail.com"): Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:56:50 - [MESSAGE][PASSED] - Text 'binhquoc999@gmail.com' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:56:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:56:51 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 13:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display" time="6.887" classname="Test Cases/Account Settings/Display Settings/Display" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:56:51 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display: Test Cases/Account Settings/Display Settings/Display
+
+2019-12-20 13:56:52 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:56:56 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:56:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:56:58 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:56:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:56:58 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Channel" time="4.475" classname="Test Cases/Account Settings/Display Settings/Display Channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:56:58 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Channel: Test Cases/Account Settings/Display Settings/Display Channel
+
+2019-12-20 13:56:59 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:56:59 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Channel Display")): Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:57:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:02 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:02 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:03 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Clock" time="4.804" classname="Test Cases/Account Settings/Display Settings/Display Clock" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:03 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Clock: Test Cases/Account Settings/Display Settings/Display Clock
+
+2019-12-20 13:57:03 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:04 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Clock")): Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Clock Display_clockFormat")): Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:57:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:07 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:07 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:07 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:08 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Theme" time="4.36" classname="Test Cases/Account Settings/Display Settings/Display Theme" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:08 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Theme: Test Cases/Account Settings/Display Settings/Display Theme
+
+2019-12-20 13:57:08 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:09 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:11 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Theme")): Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:57:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:11 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:11 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:12 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:12 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:12 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Default" time="4.886" classname="Test Cases/Account Settings/Display Settings/Display Default" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:12 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Default: Test Cases/Account Settings/Display Settings/Display Default
+
+2019-12-20 13:57:12 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Default appearance")): Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Expanded_collapseFormat")): Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:57:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:17 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:17 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.502" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:17 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:19 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Message" time="4.951" classname="Test Cases/Account Settings/Display Settings/Display Message" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:19 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Message: Test Cases/Account Settings/Display Settings/Display Message
+
+2019-12-20 13:57:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Message Display")): Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/label_Compact Fit as many messages on the screen as we can")): Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:57:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:23 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:24 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:24 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:24 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Teammate" time="4.685" classname="Test Cases/Account Settings/Display Settings/Display Teammate" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:24 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Teammate: Test Cases/Account Settings/Display Settings/Display Teammate
+
+2019-12-20 13:57:25 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:25 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Teammate")): Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Teammate Name Display_name_formatFormat")): Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:57:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:28 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:29 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="3.308" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:29 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:57:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:31 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:57:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:32 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:32 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:32 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Language" time="4.793" classname="Test Cases/Account Settings/Display Settings/Display Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:32 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Language: Test Cases/Account Settings/Display Settings/Display Language
+
+2019-12-20 13:57:33 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:33 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Language")): Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:57:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:36 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:37 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:37 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:37 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="5.377" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:37 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-20 13:57:38 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:57:38 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:57:39 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:57:40 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:57:41 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:57:41 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:57:42 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:57:42 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:57:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:42 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:43 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Search username" time="6.825" classname="Test Cases/Town Square binhchill/BinhChill Search username" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:43 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Search username: Test Cases/Town Square binhchill/BinhChill Search username
+
+2019-12-20 13:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/span_Town Square_channelHeaderDropdownIcon")): Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/span_Town Square_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Town Square Notification/button_View Members")): Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-20 13:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Town Square Notification/button_View Members' is clicked on
+
+2019-12-20 13:57:44 - [TEST_STEP][PASSED] - setText(findTestObject("Town Square Notification/input_Members_searchUsersInput"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-20 13:57:46 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/Town Square Notification/input_Members_searchUsersInput'
+
+2019-12-20 13:57:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-20 13:57:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-20 13:57:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:57:49 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:57:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:57:49 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.493" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:49 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:57:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:51 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:57:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Off-Topic aba123/Aba123 login" time="17.017" classname="Test Cases/Off-Topic aba123/Aba123 login" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:57:52 - [TEST_CASE][PASSED] - Test Cases/Off-Topic aba123/Aba123 login: Test Cases/Off-Topic aba123/Aba123 login
+
+2019-12-20 13:57:52 - [TEST_STEP][PASSED] - openBrowser("https://mattermost-apcs.herokuapp.com/login"): Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:57:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-20 13:57:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-20 13:58:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://mattermost-apcs.herokuapp.com/login'
+
+2019-12-20 13:58:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId"), "aba123"): Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:58:08 - [MESSAGE][PASSED] - Text 'aba123' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_loginId'
+
+2019-12-20 13:58:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password"), "123456"): Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:58:08 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Mattermost/input_All team communication in one place searchable and accessible anywhere_password'
+
+2019-12-20 13:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Mattermost/span_Sign in")): Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on
+
+2019-12-20 13:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mattermost/span_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="7.398" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:09 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:58:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:13 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:14 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:58:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:16 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.694" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:16 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:58:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:18 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Advanced Settings/Advanced" time="3.374" classname="Test Cases/Account Settings/Advanced Settings/Advanced" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:19 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Advanced Settings/Advanced: Test Cases/Account Settings/Advanced Settings/Advanced
+
+2019-12-20 13:58:19 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:20 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Advanced")): Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-20 13:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Advanced' is clicked on
+
+2019-12-20 13:58:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:22 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:22 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:22 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Channel" time="4.387" classname="Test Cases/Account Settings/Display Settings/Display Channel" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:22 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Channel: Test Cases/Account Settings/Display Settings/Display Channel
+
+2019-12-20 13:58:22 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:23 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Channel Display")): Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:58:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Channel Display' is clicked on
+
+2019-12-20 13:58:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:26 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:26 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:26 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:27 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Town Square binhchill/BinhChill Write-Off" time="2.457" classname="Test Cases/Town Square binhchill/BinhChill Write-Off" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:27 - [TEST_CASE][PASSED] - Test Cases/Town Square binhchill/BinhChill Write-Off: Test Cases/Town Square binhchill/BinhChill Write-Off
+
+2019-12-20 13:58:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), "Binh Very Deep Try :unamused: "): Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:29 - [MESSAGE][PASSED] - Text 'Binh Very Deep Try :unamused: ' is set on object 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Town Square/textarea_Write to Town Square_post_textbox"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox'
+
+2019-12-20 13:58:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Town Square/textarea_Write to Town Square_post_textbox']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Clock" time="4.61" classname="Test Cases/Account Settings/Display Settings/Display Clock" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:29 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Clock: Test Cases/Account Settings/Display Settings/Display Clock
+
+2019-12-20 13:58:29 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:30 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:30 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:31 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Clock")): Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Clock' is clicked on
+
+2019-12-20 13:58:33 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Clock Display_clockFormat")): Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Clock Display_clockFormat' is clicked on
+
+2019-12-20 13:58:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:33 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:33 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:34 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:34 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:34 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Default" time="4.657" classname="Test Cases/Account Settings/Display Settings/Display Default" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:34 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Default: Test Cases/Account Settings/Display Settings/Display Default
+
+2019-12-20 13:58:34 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:35 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:36 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Default appearance")): Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Default appearance' is clicked on
+
+2019-12-20 13:58:37 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Expanded_collapseFormat")): Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:58:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Expanded_collapseFormat' is clicked on
+
+2019-12-20 13:58:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:38 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:38 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:38 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:39 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Language" time="4.546" classname="Test Cases/Account Settings/Display Settings/Display Language" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:39 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Language: Test Cases/Account Settings/Display Settings/Display Language
+
+2019-12-20 13:58:39 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:39 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Language")): Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Language' is clicked on
+
+2019-12-20 13:58:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:42 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:43 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:43 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:43 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Message" time="4.768" classname="Test Cases/Account Settings/Display Settings/Display Message" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:43 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Message: Test Cases/Account Settings/Display Settings/Display Message
+
+2019-12-20 13:58:43 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:44 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Message Display")): Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:58:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Message Display' is clicked on
+
+2019-12-20 13:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/label_Compact Fit as many messages on the screen as we can")): Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/label_Compact Fit as many messages on the screen as we can' is clicked on
+
+2019-12-20 13:58:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:47 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:48 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:48 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:48 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Teammate" time="4.744" classname="Test Cases/Account Settings/Display Settings/Display Teammate" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:48 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Teammate: Test Cases/Account Settings/Display Settings/Display Teammate
+
+2019-12-20 13:58:48 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:49 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Teammate")): Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Teammate' is clicked on
+
+2019-12-20 13:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/input_Teammate Name Display_name_formatFormat")): Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/input_Teammate Name Display_name_formatFormat' is clicked on
+
+2019-12-20 13:58:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:52 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:52 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:53 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display Theme" time="4.307" classname="Test Cases/Account Settings/Display Settings/Display Theme" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:53 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display Theme: Test Cases/Account Settings/Display Settings/Display Theme
+
+2019-12-20 13:58:53 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:54 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Theme")): Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Theme' is clicked on
+
+2019-12-20 13:58:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:56 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:58:57 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:58:57 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:58:57 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Display Settings/Display" time="3.474" classname="Test Cases/Account Settings/Display Settings/Display" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:58:57 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Display Settings/Display: Test Cases/Account Settings/Display Settings/Display
+
+2019-12-20 13:58:57 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:58:58 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:58:59 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Display")): Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Display' is clicked on
+
+2019-12-20 13:59:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:00 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:00 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Email" time="3.301" classname="Test Cases/Account Settings/General Setting/Email" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:00 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Email: Test Cases/Account Settings/General Setting/Email
+
+2019-12-20 13:59:00 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:01 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:02 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Email")): Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Email' is clicked on
+
+2019-12-20 13:59:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:03 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:04 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Full Name" time="5.172" classname="Test Cases/Account Settings/General Setting/Full Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:04 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Full Name: Test Cases/Account Settings/General Setting/Full Name
+
+2019-12-20 13:59:04 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:05 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:06 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit FullName")): Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit FullName' is clicked on
+
+2019-12-20 13:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_First Name_firstName"), "Nguyen"): Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:59:07 - [MESSAGE][PASSED] - Text 'Nguyen' is set on object 'Object Repository/General Setting/input_First Name_firstName'
+
+2019-12-20 13:59:07 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Last Name_lastName"), "Binh"): Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:59:08 - [MESSAGE][PASSED] - Text 'Binh' is set on object 'Object Repository/General Setting/input_Last Name_lastName'
+
+2019-12-20 13:59:08 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save FullName")): Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save FullName' is clicked on
+
+2019-12-20 13:59:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:08 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:09 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/NickName" time="4.511" classname="Test Cases/Account Settings/General Setting/NickName" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:09 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/NickName: Test Cases/Account Settings/General Setting/NickName
+
+2019-12-20 13:59:09 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:10 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:11 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit NickName")): Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-20 13:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit NickName' is clicked on
+
+2019-12-20 13:59:12 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Nickname_nickname"), "binhchill"): Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-20 13:59:12 - [MESSAGE][PASSED] - Text 'binhchill' is set on object 'Object Repository/General Setting/input_Nickname_nickname'
+
+2019-12-20 13:59:12 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save NickName")): Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-20 13:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save NickName' is clicked on
+
+2019-12-20 13:59:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:13 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:13 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Position" time="3.807" classname="Test Cases/Account Settings/General Setting/Position" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:13 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Position: Test Cases/Account Settings/General Setting/Position
+
+2019-12-20 13:59:14 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:14 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:15 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Position")): Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-20 13:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Position' is clicked on
+
+2019-12-20 13:59:16 - [TEST_STEP][PASSED] - setText(findTestObject("General Setting/input_Position_position"), ""): Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-20 13:59:17 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/General Setting/input_Position_position'
+
+2019-12-20 13:59:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:17 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:17 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:17 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Profile" time="3.389" classname="Test Cases/Account Settings/General Setting/Profile" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:17 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Profile: Test Cases/Account Settings/General Setting/Profile
+
+2019-12-20 13:59:18 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:18 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:19 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit Profile")): Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-20 13:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit Profile' is clicked on
+
+2019-12-20 13:59:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:20 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:21 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/Sample" time="2.793" classname="Test Cases/Account Settings/General Setting/Sample" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:21 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/Sample: Test Cases/Account Settings/General Setting/Sample
+
+2019-12-20 13:59:21 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:22 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:23 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:23 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:23 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/General Setting/User Name" time="4.007" classname="Test Cases/Account Settings/General Setting/User Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:23 - [TEST_CASE][PASSED] - Test Cases/Account Settings/General Setting/User Name: Test Cases/Account Settings/General Setting/User Name
+
+2019-12-20 13:59:24 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:24 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:25 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Edit UserName")): Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-20 13:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Edit UserName' is clicked on
+
+2019-12-20 13:59:26 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span_Save UserName")): Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-20 13:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span_Save UserName' is clicked on
+
+2019-12-20 13:59:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:27 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:27 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:27 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Chatting" time="1.795" classname="Test Cases/Account Settings/Join New Channels/Chatting" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:27 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Chatting: Test Cases/Account Settings/Join New Channels/Chatting
+
+2019-12-20 13:59:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page Join Channels/textarea_Write to Boyris New Age_post_textbox"), "Hello Im New"): Text 'Hello Im New' is set on object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+
+2019-12-20 13:59:29 - [MESSAGE][PASSED] - Text 'Hello Im New' is set on object 'Object Repository/Page Join Channels/textarea_Write to Boyris New Age_post_textbox'
+
+2019-12-20 13:59:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:29 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:29 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Join Channels" time="3.162" classname="Test Cases/Account Settings/Join New Channels/Join Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:29 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Join Channels: Test Cases/Account Settings/Join New Channels/Join Channels
+
+2019-12-20 13:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_More")): Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-20 13:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_More' is clicked on
+
+2019-12-20 13:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page Join Channels/input_Create New Channel_searchChannelsTextbox"), "Boyris "): Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-20 13:59:31 - [MESSAGE][PASSED] - Text 'Boyris ' is set on object 'Object Repository/Page Join Channels/input_Create New Channel_searchChannelsTextbox'
+
+2019-12-20 13:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Join Channels")): Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on
+
+2019-12-20 13:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Join Channels' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Join New Channels/Leave Channels" time="3.031" classname="Test Cases/Account Settings/Join New Channels/Leave Channels" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:32 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Join New Channels/Leave Channels: Test Cases/Account Settings/Join New Channels/Leave Channels
+
+2019-12-20 13:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon")): Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/span_Boyris New Age_channelHeaderDropdownIcon' is clicked on
+
+2019-12-20 13:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Page Join Channels/button_Leave Channel")): Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on
+
+2019-12-20 13:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Join Channels/button_Leave Channel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Notifications Settings/Notification" time="5.482" classname="Test Cases/Account Settings/Notifications Settings/Notification" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:35 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Notifications Settings/Notification: Test Cases/Account Settings/Notifications Settings/Notification
+
+2019-12-20 13:59:36 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:37 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Notifications")): Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-20 13:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Notifications' is clicked on
+
+2019-12-20 13:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/span_Edit Notification")): Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-20 13:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/span_Edit Notification' is clicked on
+
+2019-12-20 13:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText"), "chobinh"): Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-20 13:59:40 - [MESSAGE][PASSED] - Text 'chobinh' is set on object 'Object Repository/Account Settings/input_Other non-case sensitive words separated by commas_notificationTriggerCustomText'
+
+2019-12-20 13:59:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:40 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:40 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:41 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:41 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:41 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Security Settings/Security" time="3.342" classname="Test Cases/Account Settings/Security Settings/Security" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:41 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Security Settings/Security: Test Cases/Account Settings/Security Settings/Security
+
+2019-12-20 13:59:41 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:42 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Security")): Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-20 13:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Security' is clicked on
+
+2019-12-20 13:59:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:44 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:44 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:44 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Account Settings/Sidebar Settings/Sidebar" time="3.239" classname="Test Cases/Account Settings/Sidebar Settings/Sidebar" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:44 - [TEST_CASE][PASSED] - Test Cases/Account Settings/Sidebar Settings/Sidebar: Test Cases/Account Settings/Sidebar Settings/Sidebar
+
+2019-12-20 13:59:45 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/span menu")): Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/span menu' is clicked on
+
+2019-12-20 13:59:45 - [TEST_STEP][PASSED] - click(findTestObject("General Setting/button_Account Settings")): Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/General Setting/button_Account Settings' is clicked on
+
+2019-12-20 13:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Account Settings/button_Sidebar")): Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-20 13:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Account Settings/button_Sidebar' is clicked on
+
+2019-12-20 13:59:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:47 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:48 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Enter Boyris" time="1.259" classname="Test Cases/Boyris Team/Enter Boyris" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:48 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Enter Boyris: Test Cases/Boyris Team/Enter Boyris
+
+2019-12-20 13:59:48 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/div_Boyris")): Object: 'Object Repository/Page Boyris Mattermost/div_Boyris' is clicked on
+
+2019-12-20 13:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/div_Boyris' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Add BinhChill" time="5.74" classname="Test Cases/Boyris Team/Add BinhChill" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:49 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Add BinhChill: Test Cases/Boyris Team/Add BinhChill
+
+2019-12-20 13:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Add Members to Team")): Object: 'Object Repository/Page Boyris Mattermost/button_Add Members to Team' is clicked on
+
+2019-12-20 13:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Add Members to Team' is clicked on
+
+2019-12-20 13:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)"), STOP_ON_FAILURE): Object: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' is clicked on
+
+2019-12-20 13:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_binhchill - Nguyen Binh (binhchill)' is clicked on
+
+2019-12-20 13:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Add member")): Object: 'Object Repository/Page Boyris Mattermost/span_Add member' is clicked on
+
+2019-12-20 13:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Add member' is clicked on
+
+2019-12-20 13:59:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:53 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:53 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 13:59:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Kick BinhChill" time="4.93" classname="Test Cases/Boyris Team/Kick BinhChill" status="PASSED">
+         <system-out><![CDATA[2019-12-20 13:59:55 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Kick BinhChill: Test Cases/Boyris Team/Kick BinhChill
+
+2019-12-20 13:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 13:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Manage Members")): Object: 'Object Repository/Page Boyris Mattermost/button_Manage Members' is clicked on
+
+2019-12-20 13:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Manage Members' is clicked on
+
+2019-12-20 13:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_System Admin")): Object: 'Object Repository/Page Boyris Mattermost/span_System Admin' is clicked on
+
+2019-12-20 13:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_System Admin' is clicked on
+
+2019-12-20 13:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Remove From Team")): Object: 'Object Repository/Page Boyris Mattermost/button_Remove From Team' is clicked on
+
+2019-12-20 13:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Remove From Team' is clicked on
+
+2019-12-20 13:59:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 13:59:58 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 13:59:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:00 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Allow Any" time="3.399" classname="Test Cases/Boyris Team/Team Allow Any" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:00 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Allow Any: Test Cases/Boyris Team/Team Allow Any
+
+2019-12-20 14:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Allow Any")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow Any' is clicked on
+
+2019-12-20 14:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow Any' is clicked on
+
+2019-12-20 14:00:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:02 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:02 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:03 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Allow Only" time="3.31" classname="Test Cases/Boyris Team/Team Allow Only" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:03 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Allow Only: Test Cases/Boyris Team/Team Allow Only
+
+2019-12-20 14:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:05 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Allow only")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow only' is clicked on
+
+2019-12-20 14:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Allow only' is clicked on
+
+2019-12-20 14:00:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:06 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:06 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:06 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Description" time="3.943" classname="Test Cases/Boyris Team/Team Description" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:06 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Description: Test Cases/Boyris Team/Team Description
+
+2019-12-20 14:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Description")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Description' is clicked on
+
+2019-12-20 14:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Description' is clicked on
+
+2019-12-20 14:00:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page Boyris Mattermost/input_Team Description_teamDescription"), "We're From The Hood"): Text 'We're From The Hood' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 14:00:10 - [MESSAGE][PASSED] - Text 'We're From The Hood' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Description_teamDescription'
+
+2019-12-20 14:00:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:10 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:10 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:10 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Icon" time="3.229" classname="Test Cases/Boyris Team/Team Icon" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:10 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Icon: Test Cases/Boyris Team/Team Icon
+
+2019-12-20 14:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Team Icon")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Icon' is clicked on
+
+2019-12-20 14:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Icon' is clicked on
+
+2019-12-20 14:00:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:13 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:13 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:13 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Invite Code" time="3.224" classname="Test Cases/Boyris Team/Team Invite Code" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:13 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Invite Code: Test Cases/Boyris Team/Team Invite Code
+
+2019-12-20 14:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:14 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Invite Code")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Invite Code' is clicked on
+
+2019-12-20 14:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Invite Code' is clicked on
+
+2019-12-20 14:00:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:16 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:16 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:17 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Name" time="3.844" classname="Test Cases/Boyris Team/Team Name" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:17 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Name: Test Cases/Boyris Team/Team Name
+
+2019-12-20 14:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Edit Team Name")): Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Name' is clicked on
+
+2019-12-20 14:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Edit Team Name' is clicked on
+
+2019-12-20 14:00:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page Boyris Mattermost/input_Team Name_teamName"), "Boyris"): Text 'Boyris' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Name_teamName'
+
+2019-12-20 14:00:20 - [MESSAGE][PASSED] - Text 'Boyris' is set on object 'Object Repository/Page Boyris Mattermost/input_Team Name_teamName'
+
+2019-12-20 14:00:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:20 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:20 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:21 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Boyris Team/Team Settings" time="2.677" classname="Test Cases/Boyris Team/Team Settings" status="PASSED">
+         <system-out><![CDATA[2019-12-20 14:00:21 - [TEST_CASE][PASSED] - Test Cases/Boyris Team/Team Settings: Test Cases/Boyris Team/Team Settings
+
+2019-12-20 14:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/span_Main menu")): Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/span_Main menu' is clicked on
+
+2019-12-20 14:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Page Boyris Mattermost/button_Team Settings")): Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page Boyris Mattermost/button_Team Settings' is clicked on
+
+2019-12-20 14:00:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(ESCAPE)): Keys 'ESCAPE + ' sent to object: 'tempBody'
+
+2019-12-20 14:00:22 - [MESSAGE][WARNING] - Test object id is null
+
+2019-12-20 14:00:22 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-12-20 14:00:23 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'tempBody']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-20 13:56:32 - [TEST_SUITE][PASSED] - Test All Cases: Test Cases/Boyris Team/Team Settings]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
